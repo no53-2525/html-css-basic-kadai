@@ -23,7 +23,7 @@ header {
 }
 
 main {
-  margin: 10px;
+  padding: 10px;
 }
 
 #parent {
@@ -38,7 +38,6 @@ main {
   margin: 20px 0;
   padding: 10px 15px;
   text-align: center;
-  letter
 }
 
 h2 {
@@ -49,7 +48,7 @@ h2::before {
   content: "●";
   color: rgb(239, 111, 139);
 }
-p:nth-child(3)::first-letter {
+.contents p:nth-last-of-type(2)::first-letter {
   font-weight: bold;
   color: rgb(97, 206, 249);
 }
@@ -81,4 +80,5 @@ a:hover {
     }
     p {
       font-size: 25px;
+    }
     }
